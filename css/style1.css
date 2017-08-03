@@ -1,0 +1,517 @@
+.sitefont{
+
+  font-family: arial;
+
+}
+
+/*Login page*/
+
+input.user{
+    font-family: arial;
+    width: 130px ;
+    padding: 6px;
+    padding-left: 2px;
+    box-sizing: border-box;
+}
+
+
+.txtbox{
+     font-family: arial;
+    width: 250px ;
+    height: 50px;
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+   
+    
+}
+
+input.pass{
+ font-family: arial;
+      width: 130px ;
+    padding: 6px;
+    padding-left: 2px;
+    
+  
+    box-sizing: border-box;
+}
+
+/**/
+
+/*Register*/
+
+label.l1{
+    margin-left: -15%;
+
+}
+
+input.radio   {
+   display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('images/checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+
+
+/**/
+
+/*profile*/
+
+.text {
+    width: 50%;
+    height: 50px;
+     font-family: arial;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+     font-family: arial;
+
+}
+
+.p{
+    font-size: 14px;
+    font-family: arial;
+    color:gray;
+     text-align: left;
+
+}
+
+.proavatar{
+  height: 165px;
+    width: 165px;
+    text-align: left;
+    border-radius: 50%;
+    margin-left: 10%;
+    border-style: groove;
+    border-color: silver;
+    font-family: arial;
+}
+
+.msgpic{
+  max-width: 50px;
+  max-height: 50px;
+  min-height: 50px;
+  min-width: 50px;
+    text-align: left;
+    border-radius: 80%;
+    font-family: arial;
+    border-style: groove;
+    border-color: silver;
+   
+}
+
+.prosq{
+ height: 150px;
+  width: 200px;
+    text-align: left;
+     border-style: groove;
+    border-color: silver;
+ font-family: arial;
+   
+}
+{ box-sizing: border-box; }
+
+/**/
+
+
+/*Home*/
+/* @keyframes slider{
+ 	0%{
+ 		left:0;
+ 	}
+
+ 	20%{
+ 		left:0;
+ 	}
+
+ 	25%{
+ 		left:-100%;
+ 	}
+ 	
+ 	45%{
+ 		left:-100%;
+ 	}
+
+ 	50%{
+ 		left:-200%;
+ 	}
+
+ 	70%{
+ 		left:-200%;
+ 	}
+
+ 	75%{
+ 		left:-300%;
+ 	}
+ 	95%{
+ 		left:-300%;
+ 	}
+ 	100%{
+ 		left:-400%;
+ 	}
+ }*/
+
+ 	#slider{
+
+ 		overflow: hidden;
+
+ 	}
+ 	#slider figure img{
+ 		width: 100%;
+    height: 90%;
+ 		border-image-width: 70%;
+ 		float: left;
+ 	}
+
+ 	#slider figure{
+ 		position: relative;
+ 		max-width: 100%;
+ 		height: 90%;
+ 		margin: 0 auto;
+ 		left: 0;
+ 		text-align: left;
+ 		animation: 10s slider;
+
+
+ 	}
+
+  .font{
+   
+    font-size: 20px;
+    border-color: gray;
+     font-family: arial;
+     text-align: center;
+   
+    
+  }
+
+#mar{
+	margin-left: 15%;
+}
+/**/
+/*navigation bar*/
+   
+#nav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #1DA1F2;
+    position: relative;
+    font-size: 18px;
+    font-weight: 10px;
+ font-family: arial;
+}
+
+
+body{
+
+    background-color: white;
+    color: black;
+}
+
+#li {
+    float: left;
+}
+
+#li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#l1 {
+    display: block;
+    color: white;
+    text-align: center;
+    max-height: 37px;
+    min-height: 37px;
+    max-width: 37px;
+    min-width: 37px;
+    text-decoration: none;
+    
+}
+
+#li a:hover {
+    background-color: #fff;
+    color:#3498db;
+}
+/**/
+
+
+table, td, th {    
+   
+color: black;
+ text-align: center;
+ font-family: arial;
+}
+
+table {
+
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+ font-family: arial;
+}
+
+th, td {
+     color: black;
+ font-family: arial;
+    padding: 15px;
+
+}
+
+
+.avatar{
+	width: 100px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+#cdiv{
+	text-align: left;
+
+}
+
+#main-wrapper{
+	width:1000px;
+	margin: 0 auto;
+	background : white ;
+	padding: 50px;
+	border-radius: 10px;
+	border:2px solid;
+}
+/*Profile*/
+
+
+
+html,body{
+	padding: 0;
+}
+div.a {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+    font-size: 18px;
+    color: black;
+    margin-left: 05%;
+ font-family: arial;
+
+}
+html{
+	background-color: #ecf0f1;
+}
+/*.card{
+ font-family: arial;
+  padding: 10px;
+	width: 225px;
+	background-color: #ecf0f1;
+	display: inline-block;
+	border-radius: 10px;
+  min-height: 400px;
+  max-height: 400px;
+  margin-top: 10px;
+}*/
+
+.topsection{
+	background: #ACC0E9;
+	height: 500px;
+}
+
+.bottom-section{
+
+	text-align: center;
+	padding: 20px 50px 15px 50px;
+    box-shadow: 1px;
+    color: black;
+}
+
+.button {
+    background-color: #1DA1F2; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+ font-family: arial;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1DA1F2;
+ font-family: arial;
+}
+
+.button2:hover {
+    background-color: #1DA1F2;
+    color: white;
+ font-family: arial;
+}
+
+#u1{
+	padding: 5px;
+
+}
+
+.loginbutton{
+    background-color: #1DA1F2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+ font-family: arial;
+}
+
+
+.login2 {
+    background-color:#1DA1F2; 
+    color: white; 
+   font-family: arial;
+}
+
+.login2:hover {
+    background-color: white;
+    color: #3498db;
+ font-family: arial;
+}
+/**/
+
+/*INBOX/MSG_CON.php*/
+
+.back {
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    resize: none;
+    font-family: arial;
+    display:inline-block;
+    word-wrap:break-word;
+
+}
+.convotable {
+    width: 100%;
+    height: 80px;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    font-family: arial;
+    display:inline-block;
+    word-wrap:break-word;
+    resize:none;
+
+
+}
+.msgtextarea {
+    width: 50%;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    resize: none;
+    font-family: arial;
+    display:inline-block;
+ 
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  /*float: left;*/
+}
+.namemsg{
+  margin-top: 20px;
+  margin-right: 90px;
+     float:right;
+     text-indent: bold;
+ font-family: arial;
+
+}
+
+
+
+/**/
+/*profile card COUNSELLORS.php*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  min-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-left: 70px; 
+  display: inline-block;
+  margin-bottom: 20px;
+  max-height: 350px;
+  min-height: 350px;
+  margin-top: 10px;
+
+}
+
+.container {
+  width: 80%;
+  padding: 0 0;
+  overflow-wrap: break-word;
+}
+
+
+.title {
+  color: gray;
+  font-size: 14px;
+  overflow-wrap: break-word;
+  text-align: left;
+  margin-left: 10%;
+
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
